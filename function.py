@@ -6,4 +6,5 @@ def hello(first_name, last_name, age):
     print("Have a nice day!")
 
 
-hello("Marcos", "Silva", 31)
+# hello("Marcos", "Silva", 31)
+hello(input("What's your first name?: "), input("What's your last name?: "), input("How old are you?: "))
