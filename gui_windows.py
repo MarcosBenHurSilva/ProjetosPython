@@ -1,7 +1,7 @@
 from tkinter import *
 
 window = Tk()  # instantiate an insurance of a window
-window.geometry("420x420")
+window.geometry("720x480")
 window.title("Marcos first GUI program")
 
 icon = PhotoImage(file="logo.png")
