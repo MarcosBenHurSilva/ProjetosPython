@@ -14,12 +14,14 @@ volley_ball = Ball(canvas, 0, 0, 100, 1, 1, "white")
 tennis_ball = Ball(canvas, 0, 0, 50, 4, 3, "yellow")
 basket_ball = Ball(canvas, 0, 0, 125, 3, 5, "orange")
 bowling_ball = Ball(canvas, 0, 0, 75, 2, 1, "black")
+soccer_ball = Ball(canvas, 0, 0, 90, 6, 2, "gray")
 
 while True:
     volley_ball.move()
     tennis_ball.move()
     basket_ball.move()
     bowling_ball.move()
+    soccer_ball.move()
     window.update()
     time.sleep(0.01)
 
