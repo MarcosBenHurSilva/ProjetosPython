@@ -27,7 +27,7 @@ def click():
 
     answer = messagebox.askyesnocancel(title=' Yes no cancel', message='Do you like to code?', icon='question')
 
-    if answer:
+    if answer==True:
         print("You like to code :)")
     elif answer == False:
         print("Then why are you watching a video on coding?")
